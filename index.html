@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <script src="https://kit.fontawesome.com/850286a86b.js" crossorigin="anonymous"></script>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header>
+        <section class="container mx-auto sm:flex justify-around items-center bg-yellow-50 pt-12 pb-32">
+            <div class="space-y-4">
+                <h1 class="text-2xl sm:text-5xl uppercase font-bold">
+                    <span class="text-yellow-400">Be the Penguins</span>
+                    <br>
+                    <span>of winter</span>
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <button class="uppercase bg-lime-600 px-7 py-4 text-white font-semibold rounded-xl"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+            </div>
+            <div class="pt-8 sm:pt-0">
+                <img class="w-1/2 sm:w-full" src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+</body>
+</html>
